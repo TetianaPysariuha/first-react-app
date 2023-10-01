@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.container h1{
+    width: 100%;
+}
+.noItemsText{
+    padding: 200px;
+}
+.listView{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:120px;
+    left: 40px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba($color: #000000, $alpha: 0.05);
+    }
+}

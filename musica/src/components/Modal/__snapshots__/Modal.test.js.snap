@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal snapshot testing Should Modal to render with close button 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="containerBackground"
+      data-testid="closeModal"
+    />
+    <div
+      class="content"
+    >
+      <div
+        class="modalHeader"
+      >
+        <h2>
+          Modal title
+        </h2>
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.3); color: white;"
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <p
+        class="text"
+      >
+        Modal text
+      </p>
+      <div
+        class="btns"
+      >
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.2); color: white;"
+          type="button"
+        >
+          OK
+        </button>
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.2); color: white;"
+          type="button"
+        >
+          Cansel
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Modal snapshot testing Should Modal to render without close button 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="containerBackground"
+      data-testid="closeModal"
+    />
+    <div
+      class="content"
+    >
+      <div
+        class="modalHeader"
+      >
+        <h2>
+          Modal title
+        </h2>
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.3); color: white;"
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <p
+        class="text"
+      >
+        Modal text
+      </p>
+      <div
+        class="btns"
+      >
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.2); color: white;"
+          type="button"
+        >
+          OK
+        </button>
+        <button
+          class="btn"
+          style="background-color: rgba(0, 0, 0, 0.2); color: white;"
+          type="button"
+        >
+          Cansel
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,43 @@
+.form{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.formField{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.btnSubmit{
+    background-color:rgba(0, 128, 50, 0.8);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba($color: gray, $alpha: 0);
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover{
+        border: solid 1px rgba($color: gray, $alpha: 1);
+    }
+
+    &:active{
+        border: solid 1px rgba($color: gray, $alpha: 0.5);
+    }
+    &:disabled{
+        background-color:gray;
+        cursor: default;
+    }
+}
+.errorMessage{
+    color: rgba($color: red, $alpha: 0.8);
+    width: 80%;
+    text-align: left;
+}

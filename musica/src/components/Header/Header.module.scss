@@ -1,0 +1,49 @@
+@import '../styles/variables.scss';
+
+.header{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: $baseColorLight;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navigation{
+    padding: 20px;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px
+}
+.navigation Img{
+    height: 40px;
+}
+.cart, .favorite, .catalog{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+.catalog{
+    padding-right: 25px;
+}

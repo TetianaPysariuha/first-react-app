@@ -1,0 +1,6 @@
+export const TOGLE_FAVORITE = "TOGLE_FAVORITE";
+export const LOAD_DATA = "LOAD_DATA";
+export const SAVE_DATA = "SAVE_DATA";
+export const REFRESH_COUNTER_FAVORITE = "REFRESH_COUNTER_FAVORITE";
+
+

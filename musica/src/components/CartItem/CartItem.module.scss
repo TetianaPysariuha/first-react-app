@@ -1,0 +1,32 @@
+.cutrItem{
+    display: grid;
+    grid-template-columns: 60px 1fr 80px repeat(5, 40px) 100px;
+    align-items: center;
+    column-gap: 1%;
+    width: 100%;
+    border: solid 1px rgba($color: #000000, $alpha: 0.3);
+    border-radius: 15px;
+    min-height: 100px;
+}
+.cutrItem Img{
+    width: 50px;
+    margin: auto;
+    padding: 10px;
+}
+.btnCount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnCount Button{
+    border: solid 1px rgba($color: #000000, $alpha: 0.3);
+    display: flex;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
